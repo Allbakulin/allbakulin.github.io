@@ -141,7 +141,7 @@ angular.module("slick", []).directive("slick", ["$timeout", function(e) {
                         return arguments.length ? (a = arguments[0], s.apply(e, arguments)) : a || s.apply(e, arguments)
                     }, window.addEventListener("popstate", i, !1), window.addEventListener("hashchange", i, !1), e
                 }, a(i.navigator.userAgent) ? s(e) : e
-            }]), window.mediaServer = "http://d1rqq2np2rwv49.cloudfront.net", i.hashPrefix("!"), d = window.localStorage.language, l = window.serverName = "http://taxonomyofdesign.com/", d ? l += "/" + d : (p = function() {
+            }]), window.mediaServer = "http://d1rqq2np2rwv49.cloudfront.net", i.hashPrefix("!"), d = window.localStorage.language, l = window.serverName = "http://127.0.0.1:8080", d ? l += "/" + d : (p = function() {
                 try {
                     return !!localStorage.getItem("oldVisitor")
                 } catch (e) {
